@@ -59,6 +59,5 @@ class ImgIndexAdapter(val context: Context,private val curRuleNum: Int) :
 private val imgList = ArrayList<ImgIndex>()
 imgList.add(ImgIndex(img_url.title, img_url.href, img_url.src))
 adapter.setData(imgList)
-// adapter.notifyDataSetChanged()
 ```
 

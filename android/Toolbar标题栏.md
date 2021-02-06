@@ -1,4 +1,4 @@
-### 默认的ActionBar如何来的
+### 默认的ActionBar
 
 - 根据项目中指定的主题来显示
 - 打开AndroidManifest.xml文件，其中有
@@ -105,8 +105,6 @@ override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         return true
     }
 ```
-
-### 一些主题
 
 
 
